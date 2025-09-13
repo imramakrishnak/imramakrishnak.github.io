@@ -1,0 +1,17 @@
+/* Headings in purple */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #5B2C91;
+}
+
+/* Links accent */
+.md-typeset a {
+  color: #7C4DFF;
+}
+
+/* Code blocks glow slightly */
+.md-typeset code {
+  background-color: #EEE6F8;
+  color: #5B2C91;
+  border-radius: 4px;
+  padding: 2px 4px;
+}

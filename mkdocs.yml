@@ -8,24 +8,23 @@ theme:
   name: material
   language: en
   features:
-    - navigation.sections
-    - navigation.indexes
-    - navigation.top
+    - navigation.expand
+    - toc.integrate
     - content.code.copy
     - content.action.edit
     - search.suggest
     - search.highlight
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.png        # optional
-  favicon: assets/favicon.png  # optional
+  logo: assets/logo.svg        # optional
+  favicon: assets/favicon.ico  # optional
   palette:
     - scheme: default
-      primary: indigo
+      primary: deep purple
       accent: indigo
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode

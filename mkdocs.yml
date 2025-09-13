@@ -1,0 +1,61 @@
+site_name: Ramakrishna K
+site_description: Portfolio & Learning notes
+site_url: https://imramakrishnak.github.io
+repo_url: https://github.com/imramakrishnak/imramakrishnak.github.io
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png        # optional
+  favicon: assets/favicon.png  # optional
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects:
+      - Overview: projects.md
+      - My learning notes: https://imramakrishnak.github.io/mylearning/
+      - My practice code: https://username.github.io/mypractice/
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/imramakrishnak
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/im-ramakrishnak/
+
+extra_css:
+  - assets/custom.css  # optional
+

@@ -8,8 +8,9 @@ theme:
   name: material
   language: en
   features:
-    - navigation.expand
-    - toc.integrate
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
     - content.code.copy
     - content.action.edit
     - search.suggest

@@ -16,17 +16,20 @@ theme:
     - content.action.edit
     - search.suggest
     - search.highlight
+  font:
+    text: Red Hat Text
+    code: Red Hat Mono
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.svg        # optional
+  logo: assets/g16.png        # optional
   favicon: assets/favicon.ico  # optional
   palette:
     - scheme: default
-      primary: deep purple
+      primary: light blue
       accent: indigo
     - scheme: slate
-      primary: deep purple
-      accent: light blue
+      primary: light blue
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode

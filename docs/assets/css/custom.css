@@ -1,35 +1,30 @@
-/* Headings in purple */
-.md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  color: #5B2C91;
+/* Make the grid span the full page */
+.md-grid {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Links accent */
-.md-typeset a {
-  color: #7C4DFF;
+/* Remove padding around main content */
+.md-main__inner {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
-/* Code blocks glow slightly */
-.md-typeset code {
-  background-color: #EEE6F8;
-  color: #5B2C91;
-  border-radius: 4px;
-  padding: 2px 4px;
+/* Left sidebar flush with edge */
+.md-sidebar--primary {
+  margin-left: 0;
+  padding-left: 0;
 }
 
-/* Increase top-right repo icon size */
-.md-header__button.md-icon {
-  font-size: 1.8rem;   /* default ~1.2rem */
+/* Right sidebar flush with edge */
+.md-sidebar--secondary {
+  margin-right: 0;
+  padding-right: 0;
 }
 
-/* remove big margins */
+/* Expand content to fill between nav bars */
 .md-content {
   max-width: none;
 }
-
-/* tighten up layout */
-.md-main__inner {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-

@@ -2,16 +2,16 @@ site_name: Ramakrishna K
 site_description: Portfolio & Learning notes
 site_url: https://imramakrishnak.github.io
 repo_url: https://github.com/imramakrishnak/imramakrishnak.github.io
-edit_uri: edit/main/docs/
+#edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: en
   features:
-    - navigation.expand
     - navigation.sections
-    - navigation.top
-    - toc.follow
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
     - content.code.copy
     - content.action.edit
     - search.suggest

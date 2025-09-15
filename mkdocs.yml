@@ -7,32 +7,48 @@ repo_url: https://github.com/imramakrishnak/imramakrishnak.github.io
 theme:
   name: material
   language: en
+  logo: assets/g16.png        # optional
+  favicon: assets/favicon.ico  # optional
   features:
-    - navigation.sections
-    - navigation.instant
-    - navigation.tracking
-    - toc.integrate
-    - content.code.copy
     - content.action.edit
-    - search.suggest
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
     - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
   font:
     text: Red Hat Text
     code: Red Hat Mono
   icon:
-    repo: fontawesome/brands/github
-  logo: assets/g16.png        # optional
-  favicon: assets/favicon.ico  # optional
-  palette:
-    - scheme: default
-      primary: light blue
-      accent: indigo
-    - scheme: slate
-      primary: light blue
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    repo: fontawesome/brands/github 
 
 nav:
   - Home: index.md

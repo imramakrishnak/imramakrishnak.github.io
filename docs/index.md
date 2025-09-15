@@ -1,26 +1,28 @@
-# Home
+---
+title: Home
+hide:
+  - navigation
+  - toc
+---
 
-> Developer • Python • C/C++ • Java • Systems & Data
+# RK Tech Blogs
 
-::: info
-**Currently learning:** Distributed systems, ML, and networking internals.
-:::
+Welcome! This site is built with **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**.  
+Use this template as your landing page. _Keep your intro short and crisp._ { .lead }
 
-<div class="grid cards" markdown>
+<p align="center">
+  <a href="https://github.com/username/username.github.io"><img alt="GitHub" src="https://img.shields.io/badge/code-GitHub-black?logo=github"></a>
+  <a href="https://mydomain.org/mysite"><img alt="Site" src="https://img.shields.io/badge/site-live-blue"></a>
+</p>
 
-- :material-file-code-outline: **Projects**
-  ---
-  Portfolio of selected work: LDAP automation, data viz, network diagrams.  
-  [:material-arrow-right: View projects](projects/index.md)
+---
 
-- :material-notebook-outline: **Learning notes**
-  ---
-  My study notes (C multi-file builds, Kafka, OpenStack, Splunk, etc.).  
-  [:material-arrow-right: Browse notes](notes/index.md)
+## Quick start
 
-- :material-github: **Practice code**
-  ---
-  Katas, snippets, and experiments.  
-  [:material-arrow-right: See code](practice/index.md)
+1. Edit this file at `docs/index.md`.
+2. Add pages in `docs/` (e.g., `docs/notes/python.md`).
+3. Update navigation in `mkdocs.yml` under `nav:`.
+4. Preview locally:
 
-</div>
+```bash
+mkdocs serve
